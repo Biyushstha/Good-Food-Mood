@@ -6,30 +6,35 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		455203382DD434790037E02A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455203212DD434790037E02A /* HomeViewController.swift */; };
+		455203392DD434790037E02A /* FoodAnalysisResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455203232DD434790037E02A /* FoodAnalysisResult.swift */; };
+		4552033A2DD434790037E02A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455203252DD434790037E02A /* HomeView.swift */; };
+		4552033B2DD434790037E02A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455203272DD434790037E02A /* HomeViewModel.swift */; };
+		4552033C2DD434790037E02A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455203342DD434790037E02A /* AppDelegate.swift */; };
+		4552033D2DD434790037E02A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455203362DD434790037E02A /* SceneDelegate.swift */; };
+		4552033E2DD434790037E02A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4552032B2DD434790037E02A /* Assets.xcassets */; };
+		4552033F2DD434790037E02A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4552032D2DD434790037E02A /* LaunchScreen.storyboard */; };
+		455203422DD434A60037E02A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455203412DD434A60037E02A /* ResultView.swift */; };
+		455203442DD434C70037E02A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455203432DD434C70037E02A /* ResultViewController.swift */; };
+		455203462DD6B0340037E02A /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455203452DD6B0340037E02A /* GeminiService.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		455202F02DD403EC0037E02A /* Good Food Mood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Good Food Mood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		455203212DD434790037E02A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		455203232DD434790037E02A /* FoodAnalysisResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAnalysisResult.swift; sourceTree = "<group>"; };
+		455203252DD434790037E02A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		455203272DD434790037E02A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4552032B2DD434790037E02A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4552032C2DD434790037E02A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		455203342DD434790037E02A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		455203352DD434790037E02A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455203362DD434790037E02A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		455203412DD434A60037E02A /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		455203432DD434C70037E02A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		455203452DD6B0340037E02A /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		455203022DD403EE0037E02A /* Exceptions for "Good Food Mood" folder in "Good Food Mood" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 455202EF2DD403EC0037E02A /* Good Food Mood */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		455202F22DD403EC0037E02A /* Good Food Mood */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				455203022DD403EE0037E02A /* Exceptions for "Good Food Mood" folder in "Good Food Mood" target */,
-			);
-			path = "Good Food Mood";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		455202ED2DD403EC0037E02A /* Frameworks */ = {
@@ -45,7 +50,7 @@
 		455202E72DD403EC0037E02A = {
 			isa = PBXGroup;
 			children = (
-				455202F22DD403EC0037E02A /* Good Food Mood */,
+				455203372DD434790037E02A /* Good Food Mood */,
 				455202F12DD403EC0037E02A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +61,105 @@
 				455202F02DD403EC0037E02A /* Good Food Mood.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		455203222DD434790037E02A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				455203212DD434790037E02A /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		455203242DD434790037E02A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				455203232DD434790037E02A /* FoodAnalysisResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		455203262DD434790037E02A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				455203252DD434790037E02A /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		455203282DD434790037E02A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				455203272DD434790037E02A /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		455203292DD434790037E02A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				455203222DD434790037E02A /* Controller */,
+				455203262DD434790037E02A /* View */,
+				455203282DD434790037E02A /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4552032A2DD434790037E02A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				455203452DD6B0340037E02A /* GeminiService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4552032E2DD434790037E02A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4552032B2DD434790037E02A /* Assets.xcassets */,
+				4552032D2DD434790037E02A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4552032F2DD434790037E02A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				455203432DD434C70037E02A /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		455203312DD434790037E02A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				455203412DD434A60037E02A /* ResultView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		455203332DD434790037E02A /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				4552032F2DD434790037E02A /* Controller */,
+				455203312DD434790037E02A /* View */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		455203372DD434790037E02A /* Good Food Mood */ = {
+			isa = PBXGroup;
+			children = (
+				455203332DD434790037E02A /* Result */,
+				455203292DD434790037E02A /* Home */,
+				455203242DD434790037E02A /* Model */,
+				4552032A2DD434790037E02A /* Network */,
+				4552032E2DD434790037E02A /* Resources */,
+				455203342DD434790037E02A /* AppDelegate.swift */,
+				455203352DD434790037E02A /* Info.plist */,
+				455203362DD434790037E02A /* SceneDelegate.swift */,
+			);
+			path = "Good Food Mood";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +176,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				455202F22DD403EC0037E02A /* Good Food Mood */,
 			);
 			name = "Good Food Mood";
 			packageProductDependencies = (
@@ -122,6 +223,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4552033E2DD434790037E02A /* Assets.xcassets in Resources */,
+				4552033F2DD434790037E02A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +235,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455203382DD434790037E02A /* HomeViewController.swift in Sources */,
+				455203462DD6B0340037E02A /* GeminiService.swift in Sources */,
+				455203392DD434790037E02A /* FoodAnalysisResult.swift in Sources */,
+				4552033A2DD434790037E02A /* HomeView.swift in Sources */,
+				455203442DD434C70037E02A /* ResultViewController.swift in Sources */,
+				4552033B2DD434790037E02A /* HomeViewModel.swift in Sources */,
+				4552033C2DD434790037E02A /* AppDelegate.swift in Sources */,
+				455203422DD434A60037E02A /* ResultView.swift in Sources */,
+				4552033D2DD434790037E02A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4552032D2DD434790037E02A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4552032C2DD434790037E02A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		455203042DD403EE0037E02A /* Debug */ = {
@@ -150,7 +273,6 @@
 				INFOPLIST_FILE = "Good Food Mood/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -178,7 +300,6 @@
 				INFOPLIST_FILE = "Good Food Mood/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
