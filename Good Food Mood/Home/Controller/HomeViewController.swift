@@ -104,7 +104,7 @@ class HomeViewController: UIViewController, UIImagePickerControllerDelegate, UIN
 
     @objc private func didTapAnalyze() {
         guard let selected = selectedImage else { return }
-        let apiKey = "AIzaSyCLOUb0xCqVeiVS90dT5hsfX3ixnhvwCu4"
+        let apiKey = ""
         let notes = homeView.notesTextView.text ?? ""
 
         homeView.analyzeButton.setTitle("Analyzing...", for: .normal)
